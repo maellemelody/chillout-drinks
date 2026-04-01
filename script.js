@@ -36,7 +36,7 @@ async function loadMenu() {
     } catch (error) {
         console.error('Error loading menu:', error);
         document.getElementById('menu-container').innerHTML = 
-            '<div class="error">Failed to load menu. Please refresh the page.</div>';
+            '<div class="error">Échec du chargement du menu. Veuillez rafraîchir la page.</div>';
     }
 }
 
