@@ -56,6 +56,7 @@ function parseCSV(csvText) {
         const capacity = values[3];
         const container = values[4];
         const description = values[5];
+        const alcoholPercentage = values[6];
         
         if (!categories[categoryId]) {
             categories[categoryId] = {
@@ -69,7 +70,8 @@ function parseCSV(csvText) {
             price: price,
             capacity: capacity,
             container: container,
-            description: description
+            description: description,
+            alcoholPercentage: alcoholPercentage,
         });
     }
     
@@ -150,6 +152,7 @@ function renderMenu(categories) {
                     <span class="item-price">${'💠'.repeat(item.price)}</span>
                 </div>
                 ${fullDescription ? `<p class="item-description">${fullDescription}</p>` : ''}
+                ${item.alcoholPercentage ? `<span class="item-alcohol">${item.alcoholPercentage}%</span>` : ''}
             `;
             
             grid.appendChild(menuItem);

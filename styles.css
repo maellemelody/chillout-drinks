@@ -150,6 +150,7 @@ main {
     background: var(--bg-color);
     transition: all 0.3s ease;
     border-left: 4px solid transparent;
+    position: relative;
 }
 
 .menu-item:hover {
@@ -189,6 +190,16 @@ main {
 .item-details {
     font-weight: 600;
     color: var(--primary-color);
+}
+
+.item-alcohol {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.75rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    opacity: 0.7;
 }
 
 footer {

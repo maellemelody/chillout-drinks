@@ -1,47 +1,49 @@
-category_id,item_name,price,capacity,container,description
-beer,Bière du Corbeau,3,33,consignée,
-beer,Black Pig O'Piggy,3,33,bouteille,
-beer,Black Pig Pig-Ale,3,33,bouteille,La fausse blonde
-beer,Black Pig Pig-Up,3,33,bouteille,
-beer,Black Pig Uto-Pig,3,33,bouteille,
-beer,Brewdog Hazy Jane,3,33,canette,
-beer,Brewdog Hazy Jane Guava,3,33,canette,
-beer,Brewdog King Crush,3,44,canette,
-beer,Brewdog Lost,2,44,canette,
-beer,Brewdog Punk IPA,3,50,canette,
-beer,Brewdog Wingman,2,33,canette,
-beer,Cuvée des Trolls,3,33,consignée,
-beer,Hoppy People Porn Star,3,33,canette,
-beer,Nébuleuse Embuscade,3,50,canette,
-beer,Nébuleuse Moonshine,3,50,canette,
-beer,Nébuleuse Speakeasy,3,50,canette,
-beer,Nébuleuse Stirling,3,50,canette,Sans gluten!
-beer,Nébuleuse Zepp,3,50,canette,
-beer,WhiteFrontier Log-Out & Live,3,33,bouteille,
-beer,WhiteFrontier Martigny Vice,3,33,bouteille,
-beer,WhiteFrontier Pillows,3,33,bouteille,
-beer,Dr. Gabs' Swaf,1,33,bouteille,
-beer,Dr. Gabs' Placebo,2,33,bouteille,Sans alcool
-beer,Dr. Gabs' Placebo Red,2,33,bouteille,Sans alcool
-cider,Black Pig Cidre,3,33,bouteille,
-cider,Migi-Möscht,3,49,consignée,
-soft,Jurassic Soda Fraise,2,33,bouteille,
-soft,Jurassic Soda Citron,2,33,bouteille,
-soft,Jurassic Soda Gingembre,2,33,bouteille,
-soft,Jurassic Soda Rhubarbe,2,33,bouteille,
-soft,Fizzy Citron,2,33,consignée,
-soft,Fizzy Raisin,2,33,consignée,
-soft,Fizzy Framboise,2,33,consignée,
-soft,Fizzy Myrtille,2,33,consignée,
-soft,Fizzy Mandarine,2,33,consignée,
-soft,Fizzy Pampleousse,2,33,consignée,
-soft,Club Maté,2,50,bouteille,
-soft,Tony Maté,2,33,canette,
-soft,Piña Colada,3,33,bouteille,
-soft,Mojiro,3,33,bouteille,
-soft,Coca-Cola,1,33,canette,
-soft,Coca-Cola Zéro,1,33,canette,
-soft,Fuse Tea,1,33,canette,
-soft,Redbull,2,33,canette,
-special,Brewdog Hoppy Christmas,2,33,canette,
-special,Guiness,4,50,canette,Reste de la St-Patrick!
+category_id,item_name,price,capacity,container,description,alcohol_percentage
+beer,Bière Blonde du Corbeau,3,33,consignée,Blonde,9.0
+beer,Black Pig O'Piggy,3,33,bouteille,La schwartz,5.5
+beer,Black Pig Pig-Ale,3,33,bouteille,La fausse blonde,5.0
+beer,Black Pig Pig-Up,3,33,bouteille,L'ambrée,6.2
+beer,Black Pig Uto-Pig,3,33,bouteille,La blanche,4.7
+beer,Brewdog Hazy Jane,3,33,canette,IPA,5.0
+beer,Brewdog Hazy Jane Guava,3,33,canette,IPA,5.0
+beer,Brewdog King Crush,3,44,canette,Double IPA,8.4
+beer,Brewdog Lost,2,44,canette,Lager,4.5
+beer,Brewdog Punk IPA,3,50,canette,IPA,5.4
+beer,Brewdog Wingman,2,33,canette,IPA,4.3
+beer,Cuvée des Trolls,3,33,consignée,Blonde,7.0
+beer,Hoppy People Porn Star,3,33,canette,Ambrée,6.1
+beer,Nébuleuse Embuscade,3,50,canette,Blonde,6.5
+beer,Nébuleuse Moonshine,3,50,canette,Blanche,5.0
+beer,Nébuleuse Speakeasy,3,50,canette,IPA,4.0
+beer,Nébuleuse Stirling,3,50,canette,Pale Ale - Sans gluten!,5.3
+beer,Nébuleuse Zepp,3,50,canette,Lager,4.7
+beer,WhiteFrontier Log-Out & Live,3,33,bouteille,American Pale Ale,5.0
+beer,WhiteFrontier Martigny Vice,3,33,bouteille,Session IPA,3.5
+beer,WhiteFrontier Pillows,3,33,bouteille,Blanche,4.0
+beer,Liedeman's Pécheresse,3,25,bouteille,Lambic,2.5
+beer,Liedeman's Kriek,3,25,bouteille,Lambic,3.5
+beer,Dr. Gabs' Swaf,1,33,bouteille,Lager,4.5
+beer,Dr. Gabs' Placebo,2,33,bouteille,Sans alcool!,0.0
+beer,Dr. Gabs' Placebo Red,2,33,bouteille,Sans alcool!,0.0
+cider,Black Pig Cidre,3,33,bouteille,À l'ananas,6.8
+cider,Migi-Möscht,3,49,consignée,,4.5
+soft,Jurassic Soda Fraise,2,33,bouteille,,
+soft,Jurassic Soda Citron,2,33,bouteille,,
+soft,Jurassic Soda Gingembre,2,33,bouteille,,
+soft,Jurassic Soda Rhubarbe,2,33,bouteille,,
+soft,Fizzy Citron,2,33,consignée,,
+soft,Fizzy Raisin,2,33,consignée,,
+soft,Fizzy Framboise,2,33,consignée,,
+soft,Fizzy Myrtille,2,33,consignée,,
+soft,Fizzy Mandarine,2,33,consignée,,
+soft,Fizzy Pampleousse,2,33,consignée,,
+soft,Club Maté,2,50,bouteille,,
+soft,Tony Maté,2,33,canette,,
+soft,Piña Colada,3,33,bouteille,,
+soft,Mojiro,3,33,bouteille,,
+soft,Coca-Cola,1,33,canette,,
+soft,Coca-Cola Zéro,1,33,canette,,
+soft,Fuse Tea,1,33,canette,,
+soft,Redbull,2,33,canette,,
+special,Brewdog Hoppy Christmas,2,33,canette,IPA,6
+special,Guiness,4,50,canette,Stout - Reste de la St-Patrick!,4.2
